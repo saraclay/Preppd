@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1st-color" translatesAutoresizingMaskIntoConstraints="NO" id="ecY-r3-EQb">
+                    <rect key="frame" x="0.0" y="0.0" width="120" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Hdq-6v-mgr"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2nd-color" translatesAutoresizingMaskIntoConstraints="NO" id="T0e-xE-6Wz">
+                    <rect key="frame" x="120" y="0.0" width="120" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="LcN-Xj-jGN"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3rd-color" translatesAutoresizingMaskIntoConstraints="NO" id="CMl-Bx-WCm">
+                    <rect key="frame" x="240" y="0.0" width="120" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="RVe-cC-Ffq"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Get pumped. Get preppd." textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="ONL-Kp-6Xw">
+                    <rect key="frame" x="0.0" y="263" width="480" height="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="26"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4th-color" translatesAutoresizingMaskIntoConstraints="NO" id="Ugu-XE-jAT">
+                    <rect key="frame" x="360" y="0.0" width="120" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="ihq-6K-KT0"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Preppd" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="jSn-01-ryd">
+                    <rect key="frame" x="0.0" y="179" width="480" height="84"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="62"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="T0e-xE-6Wz" secondAttribute="width" id="1Nc-l4-vsY"/>
+                <constraint firstItem="ecY-r3-EQb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1pG-rf-gse"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="ecY-r3-EQb" secondAttribute="width" id="20N-ya-8fk"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="Ugu-XE-jAT" secondAttribute="width" id="22L-yd-pqU"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="height" secondItem="T0e-xE-6Wz" secondAttribute="height" id="4E3-x1-npf"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="-8" id="53e-oD-oeh"/>
+                <constraint firstItem="ONL-Kp-6Xw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Tm-Bz-cEH"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="ecY-r3-EQb" secondAttribute="width" id="7JP-sj-FPI"/>
+                <constraint firstItem="Ugu-XE-jAT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8S1-p1-UyU"/>
+                <constraint firstItem="T0e-xE-6Wz" firstAttribute="leading" secondItem="ecY-r3-EQb" secondAttribute="trailing" id="8Wn-GO-lzO"/>
+                <constraint firstItem="Ugu-XE-jAT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="-8" id="8bQ-cN-7JS"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="leading" secondItem="T0e-xE-6Wz" secondAttribute="trailing" id="Dig-yd-dcd"/>
+                <constraint firstItem="jSn-01-ryd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DmI-eA-yKP"/>
+                <constraint firstItem="T0e-xE-6Wz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="-8" id="F6w-Yj-rTU"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="Ugu-XE-jAT" secondAttribute="width" id="HNo-zZ-7fg"/>
+                <constraint firstItem="T0e-xE-6Wz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UbM-SD-LKW"/>
+                <constraint firstAttribute="trailing" secondItem="ONL-Kp-6Xw" secondAttribute="trailing" id="a0b-zF-vGh"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="ecY-r3-EQb" secondAttribute="width" id="cL2-uK-y9Z"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="Ugu-XE-jAT" secondAttribute="width" id="fY1-PI-us1"/>
+                <constraint firstItem="ecY-r3-EQb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" constant="-8" id="h4X-sc-paf"/>
+                <constraint firstItem="Ugu-XE-jAT" firstAttribute="leading" secondItem="CMl-Bx-WCm" secondAttribute="trailing" id="kii-B5-fbi"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="T0e-xE-6Wz" secondAttribute="width" id="ooq-VV-7WH"/>
+                <constraint firstAttribute="trailing" secondItem="jSn-01-ryd" secondAttribute="trailing" id="qPB-QG-Lbv"/>
+                <constraint firstAttribute="trailingMargin" secondItem="Ugu-XE-jAT" secondAttribute="trailing" constant="-8" id="qQZ-uj-7DX"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="height" secondItem="ecY-r3-EQb" secondAttribute="height" id="tJY-Iy-pQY"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="height" secondItem="Ugu-XE-jAT" secondAttribute="height" id="upm-Cx-9F5"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v18-iU-9ce"/>
+                <constraint firstItem="ecY-r3-EQb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="-8" id="x5H-PB-3Iz"/>
+                <constraint firstItem="CMl-Bx-WCm" firstAttribute="width" secondItem="T0e-xE-6Wz" secondAttribute="width" id="y1L-9H-oNi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1st-color" width="250" height="200"/>
+        <image name="2nd-color" width="250" height="146"/>
+        <image name="3rd-color" width="250" height="146"/>
+        <image name="4th-color" width="250" height="200"/>
+    </resources>
+</document>
